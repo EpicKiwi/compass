@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.sevencrayons.compass"
-        minSdkVersion 16
+        minSdkVersion 20
             targetSdkVersion 28
         versionCode 201910230
         versionName "1.1.2"
