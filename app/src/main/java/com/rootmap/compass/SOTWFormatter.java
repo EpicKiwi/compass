@@ -1,4 +1,4 @@
-package com.sevencrayons.compass;
+package com.rootmap.compass;
 
 import android.content.Context;
 
@@ -26,6 +26,12 @@ public class SOTWFormatter {
         int iAzimuth = (int)azimuth;
         int index = findClosestIndex(iAzimuth);
         return iAzimuth + "° " + names[index];
+    }
+
+    public String formatBT(float azimuth) {
+        int iAzimuth = (int)azimuth;
+        int index = findClosestIndex(iAzimuth);
+        return ""+ iAzimuth;
     }
 
     private void initLocalizedNames(Context context) {
